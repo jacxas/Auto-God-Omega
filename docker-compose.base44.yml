@@ -13,7 +13,7 @@ services:
     environment:
       - NODE_ENV=development
       - PORT=3000
-      - __VITE_ADDITIONAL_SERVER_ALLOWED_HOSTS=${BASE44_PUBLIC_HOST_SUFFIX}
+      - __VITE_ADDITIONAL_SERVER_ALLOWED_HOSTS
     command: ["sh", "-ec", "npm install --legacy-peer-deps && exec npx tsx server.ts"]
     restart: on-failure
     healthcheck:
