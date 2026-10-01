@@ -1,0 +1,7 @@
+{
+  "name": "Auto-God Omega",
+  "description": "Advanced multi-level autonomous AI orchestration dashboard featuring Neural Architecture Search (NAS), code auto-replication, P2P node mesh, and self-modifying singularity engines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
